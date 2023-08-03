@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container"> 
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Prathamesh</span><br></h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Prathamesh Vishnu Kadam, a passionate front-end developer with a strong foundation in computer science. <br> I completed my BSc in Computer Science in 2023, where I gained a comprehensive understanding of software development principles and programming languages.
+                    .</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Graduate in B.sc(ECS) with 8.6 CGPA</li>
+                            <li><span>2020 Development</span><br>12th completed with 67%</li>
+                            <li><span>2018</span><br>10th completed with 79%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        Android app development involves creating mobile applications for Android devices using the Android SDK and programming languages like Java or Kotlin. The process includes designing the user interface, writing code for functionality, testing the app, and publishing it on the Google Play Store. Developers use tools like Android Studio to streamline development and ensure compatibility with various Android devices.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development involves building and maintaining websites or web applications using technologies like HTML, CSS, and JavaScript for the front-end, and server-side languages (e.g., PHP, Node.js) and databases (e.g., MySQL, MongoDB) for the back-end. The process includes design, coding, testing, deployment, and continuous updates to create functional and user-friendly web experiences.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Notes Taking WebApp</h2>
+                        <p>
+                            A web app for note-taking that allows users to create, organize, and sync notes across devices. It offers a user-friendly interface and supports various features like tags, reminders, and collaboration.</p>
+                        <a href="https://drive.google.com/drive/folders/10tOq6pgF_xr1hKwm2-EPYt6Y3rxzcMbb?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <p>Welcome to our cutting-edge Online Music Player, an immersive digital hub that combines the power of JavaScript, HTML, and CSS to deliver an unparalleled music experience right in your web browser. Explore an extensive library of tracks from various genres, all at your fingertips, in a sleek and intuitive user interface designed to elevate your music journey.</p>
+                        <a href="https://drive.google.com/drive/folders/1LvqcnBpSIJYzwhHvMO-t758ZAGQFspeY?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>prathameshk.8583@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9325644050</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/+919325644050"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://twitter.com/prathamesh_8583?t=1rlsdMDs4QbdQqdj2scBqw&s=09"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/prathamesh_k_patil96?igshid=YmMyMTA2M2Y=/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/prathamesh-kadam-881ba8219"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Prathamesh. Made with <i class="fas fa-heart"></i> by Pratham</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+</html>
